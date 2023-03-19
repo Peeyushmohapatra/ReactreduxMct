@@ -19,7 +19,7 @@ const Login = ({ showPage, setShowPage }) => {
     console.log(email, password);
     for (let i = 0; i < email.length; i++) {
       let ch = email.charAt(i);
-      console.log(ch, "Email");
+      // console.log(ch, "Email");
       if (ch === ".") {
         symbol1++;
       } else if (ch === "@") {
@@ -27,7 +27,7 @@ const Login = ({ showPage, setShowPage }) => {
       }
     }
     if (symbol1 !== 1 || symbol2 !== 1) {
-      console.log(symbol1, symbol2);
+      // console.log(symbol1, symbol2);
       // setPath("/");
       return false;
     }
@@ -85,7 +85,7 @@ const Login = ({ showPage, setShowPage }) => {
               } else {
                 setShowPage(false);
                 // setPath("/");
-                alert("Go Back");
+                alert("Invalid Id and Password");
                 return;
               }
             }}
