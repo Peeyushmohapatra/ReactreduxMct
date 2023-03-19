@@ -1,0 +1,35 @@
+.navbar {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+}
+
+.subNavbar {
+  height: 100%;
+  width: 40%;
+}
+
+.subNavbar ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding-right: 10%;
+}
+
+.subNavbar ul li{
+    cursor: pointer;
+}
+
+
+.link{
+  text-decoration:none;
+  color: white;
+}
+
+

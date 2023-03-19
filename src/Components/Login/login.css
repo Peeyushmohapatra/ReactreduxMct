@@ -1,0 +1,97 @@
+.loginMainContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.leftLoginContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 7%;
+  gap: 5%;
+}
+
+.rightLoginContainer {
+  height: 100%;
+  width: 50%;
+  display: flex;
+}
+
+.rightLoginContainer img {
+  height: 100%;
+  width: 100%;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.inputContainer input {
+  height: 40px;
+  background-color: rgb(236, 232, 232);
+  border: none;
+  padding: 0 10px;
+}
+
+.rememberMeContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rememberMe {
+  display: flex;
+  gap: 5px;
+}
+
+#checkbox {
+  border: 1px solid rgb(212, 48, 180);
+  color: rgb(212, 48, 180);
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#login {
+  height: 40px;
+  width: 200px;
+  background-color: rgb(212, 48, 180);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#createAccount {
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: rgb(212, 48, 180);
+  border: none;
+  border: 2px solid rgb(212, 48, 180);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.bottonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+#pTag {
+  color: rgb(212, 48, 180);
+}
