@@ -11,7 +11,7 @@ const Login = ({ showPage, setShowPage }) => {
   const checkDetails = () => {
     let symbol1 = 0;
     let symbol2 = 0;
-    if (email === "" || password === "") {
+    if (email === "" || password === "" || email.length <13) {
       // setPath("/");
 
       return false;
@@ -101,6 +101,7 @@ const Login = ({ showPage, setShowPage }) => {
         </div>
       </div>
       <div className="rightLoginContainer">
+        
         <img
           src="https://rare-gallery.com/uploads/posts/551079-dark-fog-foggy.jpg"
           alt=""
