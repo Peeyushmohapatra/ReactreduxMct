@@ -11,6 +11,12 @@
     color: white;
 }
 
+.home p{
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    color: lightgray;
+}
+
 .home button {
     height: 2rem;
     width: 8rem;

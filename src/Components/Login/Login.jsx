@@ -46,7 +46,7 @@ const Login = ({ showPage, setShowPage }) => {
 
         <div className="inputContainer">
           <label>Email</label>
-          <input
+          <input placeholder="Email"
             onChange={(e) => {
               setEmail(e.target.value);
             }}
@@ -56,7 +56,7 @@ const Login = ({ showPage, setShowPage }) => {
 
         <div className="inputContainer">
           <label>Password</label>
-          <input
+          <input placeholder="Password"
             onChange={(e) => {
               setPassword(e.target.value);
             }}
@@ -102,7 +102,7 @@ const Login = ({ showPage, setShowPage }) => {
       </div>
       <div className="rightLoginContainer">
         <img
-          src="https://e1.pxfuel.com/desktop-wallpaper/988/694/desktop-wallpaper-nature-landscapes-trees-orchard-fields-grass-fog-mist-tree-fog-landscape.jpg"
+          src="https://rare-gallery.com/uploads/posts/551079-dark-fog-foggy.jpg"
           alt=""
         />
       </div>
