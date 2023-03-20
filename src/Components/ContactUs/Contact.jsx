@@ -1,14 +1,16 @@
-import React from 'react'
-import Navbar from '../Navbar/Navbar'
-import "./contact.css"
+import React from "react";
+import Navbar from "../Navbar/Navbar";
+import "./contact.css";
 
 const Contact = () => {
   return (
-    <div className='contactMain'>
-        <Navbar/>
-        <h1 id="contactHeading">Contact Component is Under Development</h1>
+    <div className="contactMain">
+      <div className="innerContactContainer">
+        <Navbar />
+        <h1 id="contactHeading">"Contact Component is Under Development"</h1>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

@@ -1,6 +1,15 @@
 .contactMain{
     height: 100%;
     width: 100%;
+    background: url(https://rare-gallery.com/thumbs/571725-blur-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.innerContactContainer{
+    background-color: rgba(0, 0, 0, 0.557);
+    height: 100%;
+    width: 100%;
 }
 
 #contactHeading{

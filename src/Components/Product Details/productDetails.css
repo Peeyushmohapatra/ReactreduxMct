@@ -4,6 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(https://cdn.wallpapersafari.com/12/48/0gtobj.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .detailsContainer {
@@ -46,6 +49,8 @@
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
+  background-color: rgba(0, 0, 0, 0.445);
+  color: white;
 }
 
 .imgDetailsContainer label {
