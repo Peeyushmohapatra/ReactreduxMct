@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(https://cdn.wallpapersafari.com/12/48/0gtobj.jpg);
+  background: url(../../Images/productDetails\ bgimg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -63,5 +63,9 @@
 }
 
 .random label{
-  color: navy;
+  color: lightsalmon;
+}
+
+.random p{
+  color: white;
 }
